@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<title>Nguyễn Ngọc Tỷ CV</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style>
+    :root {
+        --primary: #2c3e50; 
+        --accent: #1abc9c;
+        --bg-light: #f8f9fa;
+        --text-grey: #6c757d;
+        --shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    * {
+        box-sizing: border-box; 
+    }
+    
+    body {
+        background-color: #eef1f5;
+        color: var(--primary);
+        margin: 0;
+    }
+
+    .cv-container {
+        max-width: 1200px;
+        margin: 40px auto;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: var(--shadow);
+        overflow: hidden; 
+        display: flex;       
+        flex-direction: row;  
+        flex-wrap: nowrap;    
+        align-items: stretch;  
+    }
+ 
+    .left-column {
+        background-color: var(--primary);
+        color: white;
+        width: 350px;        
+        min-width: 350px;    
+        padding: 40px 30px;
+        text-align: center;
+        flex-shrink: 0;      
+    }
+
+    .profile-img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid rgba(255,255,255,0.2);
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .contact-item {
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        font-size: 0.95rem;
+    }
+
+    .contact-item i {
+        width: 35px;
+        height: 35px;
+        background: rgba(255,255,255,0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        color: var(--accent);
+        flex-shrink: 0;
+    }
+     
+    .contact-item span {
+        word-break: break-word; 
+    }
+ 
+    .skill-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .skill-tag {
+        background: rgba(255,255,255,0.15);
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+    }
+ 
+    .right-column {
+        flex-grow: 1;  
+        padding: 50px;
+        background-color: white;
+        width: 100%;  
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--primary);
+        margin-bottom: 30px;
+        position: relative;
+        padding-left: 15px;
+    }
+    .section-title::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 5px;
+        bottom: 5px;
+        width: 5px;
+        background-color: var(--accent);
+        border-radius: 5px;
+    }
+ 
+    .timeline-item {
+        position: relative;
+        padding-left: 40px;
+        margin-bottom: 40px;
+        border-left: 2px solid #eee;
+    }
+    .timeline-item:last-child {
+        border-left: 2px solid transparent;
+    }
+    .timeline-dot {
+        position: absolute;
+        left: -9px;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        background: white;
+        border: 3px solid var(--accent);
+        border-radius: 50%;
+    }
+
+    .job-title { margin: 0; font-weight: 700; font-size: 1.1rem; }
+    .job-company { color: var(--accent); font-weight: 600; font-size: 0.9rem; margin-bottom: 5px; display: block; }
+    .job-date { font-size: 0.85rem; color: var(--text-grey); font-style: italic; margin-bottom: 10px; display: block; }
+ 
+    @media (max-width: 800px) {
+        .cv-container {
+            flex-direction: column;  
+            margin: 0;
+            border-radius: 0;
+            width: 100%;
+        }
+        .left-column {
+            width: 100%;  
+            min-height: auto;
+        }
+        .right-column {
+            padding: 30px 20px;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;  
+        }
+        .contact-item {
+            width: 100%; 
+            margin-bottom: 10px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="cv-container">
+    
+    <div class="left-column">
+        <img src="https://scontent.fsgn19-1.fna.fbcdn.net/v/t39.30808-6/484942605_2429391004078811_5104021296189267021_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=z-pjZnqcIbMQ7kNvwHZ2S9t&_nc_oc=Adn1WLGetCXevM4ylkIswJztqLEeYzT8eN4Neh21BExhmvhhF3i6BFU3gv4F1bsBeaY&_nc_zt=23&_nc_ht=scontent.fsgn19-1.fna&_nc_gid=MwQHSm6nnlgiGwGA8WuZEg&oh=00_AflX8jEeOMJzfriS3MpsCKZGtnz3k-pTBJvBgaeoP64jXQ&oe=693B827D" alt="Avatar" class="profile-img">
+        
+        <h1 style="font-size: 1.8rem; margin-bottom: 5px;">Nguyễn Ngọc Tỷ</h1>
+        <p style="opacity: 0.8; letter-spacing: 1px;">Developer</p>
+
+        <hr style="border-color: rgba(255,255,255,0.2); margin: 30px 0;">
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>25522045@gm.uit.edu.vn</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <span>+84 123 456 789</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Ho Chi Minh City, VN</span>
+            </div>
+        </div>
+
+        <hr style="border-color: rgba(255,255,255,0.2); margin: 30px 0;">
+
+        <h4 style="text-align: left; margin-bottom: 15px; font-weight: 600;">Kỹ năng</h4>
+        <div class="skill-tags">
+            <div class="skill-tag">Vibe code</div>
+            <div class="skill-tag">Android app</div>
+            <div class="skill-tag">Web app</div>
+        </div>
+
+        <div style="margin-top: 40px;">
+            <a href="https://www.facebook.com/ng.ngoc.ty/" style="color: white; margin: 0 10px; font-size: 1.2rem;"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </div>
+
+    <div class="right-column">
+        
+        <div class="w3-margin-bottom">
+            <h2 class="section-title">Giới thiệu</h2>
+            <p style="line-height: 1.8; color: #555;">
+                Xin chào, tôi là Nguyễn Ngọc Tỷ. Sinh viên năm nhất ngành Khoa học Máy tính tại Đại học Công nghệ Thông tin - ĐHQG TP.HCM. 
+                Tôi đam mê phát triển ứng dụng di động và web, nghiên cứu AI và các công nghệ mới nhất, 
+                luôn tìm kiếm cơ hội để học hỏi và phát triển kỹ năng của mình trong lĩnh vực công nghệ.
+            </p>
+        </div>
+
+        <div class="w3-margin-bottom" style="margin-top: 50px;">
+            <h2 class="section-title">Kinh nghiệm làm việc</h2>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <h3 class="job-title">Web App</h3>
+                <span class="job-company">Freelance</span>
+                <span class="job-date">Apr 2025 - June 2025</span>
+                <p style="color: #666; margin-top: 10px;">
+                    Chuyển từ Android App sang Web App sử dụng ReactJS, NodeJS và Firebase.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <h3 class="job-title">Android App</h3>
+                <span class="job-company">Freelance</span>
+                <span class="job-date">Mar 2024 - May 2024</span>
+                <p style="color: #666; margin-top: 10px;">
+                    Phát triển Front-end, Back-end cho Android App (basic CRUD online app) sử dụng Java, Kotlin, XML và Firebase.
+                </p>
+            </div>
+        </div>
+
+        <div style="margin-top: 50px;">
+            <h2 class="section-title">Học vấn</h2>
+            
+            <div class="w3-row">
+                <div class="w3-half">
+                    <h4 style="font-weight: 700; margin-bottom: 5px;">Sinh viên Khoa học Máy tính</h4>
+                    <span style="color: var(--accent); font-weight: 600;">Trường Đại học Công nghệ Thông tin - ĐHQG HCM</span>
+                    <br>
+                    <span style="font-size: 0.9rem; color: #888;">2025 - 2028</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
